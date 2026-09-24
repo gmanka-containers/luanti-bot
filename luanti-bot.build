@@ -1,0 +1,4 @@
+[Build]
+ImageTag=localhost/luanti-bot:latest
+File=./Containerfile
+SetWorkingDirectory=unit

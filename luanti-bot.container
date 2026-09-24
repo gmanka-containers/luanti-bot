@@ -1,0 +1,12 @@
+[Container]
+Image=luanti-bot.build
+Volume=%h/.var/app/org.luanti.luanti/bot/pass:/usr/etc/luanti/pass:ro,z
+Exec=luanti \
+  --go \
+  --config /usr/etc/luanti/bot.conf \
+  --address mcl.ergolyam.top \
+  --password-file /usr/etc/luanti/pass
+
+[Service]
+Restart=always
+ExecStartPre=mkdir -p %h/.var/app/org.luanti.luanti/bot/
