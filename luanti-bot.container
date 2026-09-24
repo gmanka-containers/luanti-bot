@@ -9,4 +9,5 @@ Exec=luanti \
 
 [Service]
 Restart=always
+RestartSec=10
 ExecStartPre=mkdir -p %h/.var/app/org.luanti.luanti/bot/
