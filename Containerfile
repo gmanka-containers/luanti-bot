@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora-toolbox:44
+FROM quay.io/fedora/fedora-toolbox:45
 
 RUN --mount=type=cache,target=/var/cache \
     dnf -y install minetest
