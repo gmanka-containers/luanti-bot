@@ -24,3 +24,7 @@ git clone https://github.com/gmanka-containers/luanti-bot ~/.config/containers/s
 systemctl --user daemon-reload
 systemctl --user start luanti-bot.service
 ```
+
+### enable autodig
+
+put `bot_autodig = true` to bot.conf
