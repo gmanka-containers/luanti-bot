@@ -27,4 +27,4 @@ systemctl --user start luanti-bot.service
 
 ### enable autodig
 
-put `bot_autodig = true` to bot.conf
+put `bot_autodig = true` to bot.conf, and take pickaxe
